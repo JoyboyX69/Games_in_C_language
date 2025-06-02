@@ -89,7 +89,7 @@ int player1()
 // conditoin is applicable when guessed the number is not equal to random_number
 while(guessed!=random_number);
 
-// return the value of no_of_guesses
+// return the value of no_of_guess
 return no_of_guesses;
 
 }
