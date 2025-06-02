@@ -63,26 +63,33 @@ int player1()
     random_number=(rand()%100)+1;
     // printf("%d",random_number);
     
-    start a do while loop beca
+    // start a do while loop because atleast take one input by the user
     do
     {
+      // take an input
         printf("\nGuess the number: ");
         scanf("%d",&guessed);
         
+        // condition start if guess number is greater than random number then print pick lower number
         if(guessed>random_number)
         printf("PICK LOWER NO");
         
+         // if guess is less the random number then print pick higher number
         else if(guessed<random_number)
         printf("PICK HIGHER NO");
         
+         // otherwise print you guessed the number
         else
         printf("\nCONGRATULATION YOU GUESSED THE RIGHT NO");
         
+        // how many times you guessed the number is increment by 1 each and every time you guess
         no_of_guesses++;
         
 }
+// conditoin is applicable when guessed the number is not equal to random_number
 while(guessed!=random_number);
 
+// return the value of no_of_guesses
 return no_of_guesses;
 
 }
