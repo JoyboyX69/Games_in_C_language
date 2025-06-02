@@ -40,11 +40,14 @@ int main()
             else
             printf("Congratulations You Guessed a Number\n");
 
-            
+            // how many times you guessed the number
             guesses_of_number++;
         }
+        // conditoin is applicable when guessed the number is not equal to random_number
         while(guessed != random_number);
 
+        // print the how many times to take guessed the number 
         printf("You guesses a number in the %d times",guesses_of_number);
     return 0;
+    // end of code
 }
