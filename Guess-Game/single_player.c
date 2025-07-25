@@ -21,7 +21,7 @@ int main()
 
     // printf("Random no is %d",random_number);
 
-    // start a do while loop because atleast take one input by the user
+    // start a do while loop because atleast take one input by tṆhe user
         do
         {
             // take an input by user
